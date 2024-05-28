@@ -4,7 +4,9 @@ thread_ids = ['','']
 np_texts = ['','']
 time_value = 100 
 '''
-
+os.system('clear')
+for i in range(6):
+    print("-" * 37)
 access_tokens = input("Enter access tokens (comma-separated if multiple): ").split(',')
 hatersnames = input("Enter haters' names (comma-separated if multiple): ").split(',')
 thread_ids = input("Enter thread IDs (comma-separated if multiple): ").split(',')
