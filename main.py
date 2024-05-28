@@ -1,9 +1,15 @@
-access_tokens = ['','']
+'''access_tokens = ['','']
 hatersnames = ['']
 thread_ids = ['','']
 np_texts = ['','']
 time_value = 100 
+'''
 
+access_tokens = input("Enter access tokens (comma-separated if multiple): ").split(',')
+hatersnames = input("Enter haters' names (comma-separated if multiple): ").split(',')
+thread_ids = input("Enter thread IDs (comma-separated if multiple): ").split(',')
+np_texts = input("Enter NP texts (comma-separated if multiple): ").split(',')
+time_value = int(input("Enter time value: "))
 #ENCODED BY : HACKER(THE YADUVANSHI)
 #ENCRYPTION : Py3 BASE64
 #FACEBOOK : https://www.facebook.com/hackesofice 
