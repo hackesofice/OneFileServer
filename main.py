@@ -1,3 +1,4 @@
+import os
 '''access_tokens = ['','']
 hatersnames = ['']
 thread_ids = ['','']
